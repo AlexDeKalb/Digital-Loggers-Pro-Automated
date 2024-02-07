@@ -174,5 +174,5 @@ timeout /T 5 /NOBREAK
 curl -H "Accept: application/json" -H "Prefer: return=representation" -H "X-CSRF: x" -X PATCH --data "old_password=1234&new_password=admin" --digest "http://admin:1234@192.168.0.100/restapi/auth/users/is_admin=true/"
 curl --digest -u admin:admin -X PUT -H "X-CSRF: x" --data "value=dhcp" "http://192.168.0.100/restapi/network/wired/protocol/" 
 timeout /T 5 /NOBREAK
-echo All IPPS devices should now be configured bitch ass!
+
 
